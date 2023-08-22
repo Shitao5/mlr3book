@@ -157,7 +157,7 @@ task$row_ids
 ```
 
 This design decision allows tasks and learners to transparently operate on real database management systems, where primary keys are required to be unique, but not necessarily consecutive.
-See @sec-backends for more information on using databases as data backends for tasks
+See @sec-backends for more information on using databases as data backends for tasks.
 
 The data contained in a task can be accessed through `$data()`, which returns a `r ref("data.table")` object.
 This method has optional `rows` and `cols` arguments to specify subsets of the data to retrieve.
